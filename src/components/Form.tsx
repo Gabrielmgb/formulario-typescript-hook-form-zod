@@ -10,7 +10,7 @@ export const Form = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="w-96 bg-white p-4 rounded-md border border-slate-300"
+      className="w-[400px] bg-white mb-10 p-4 rounded-xl border-2 border-slate-300 shadow-lg shadow-slate-800"
     >
       <div className="flex flex-col gap-2 mb-2">
         <label htmlFor="name">Nome:</label>
@@ -117,7 +117,7 @@ export const Form = () => {
 
       <button
         type="submit"
-        className="w-full h-11 bg-cyan-400 rounded-md my-2 hover:bg-cyan-500 transition-all"
+        className="w-full h-11 bg-slate-400 rounded-md my-2 hover:bg-slate-800 hover:text-white transition-all duration-300 cursor-pointer"
       >
         Cadastrar
       </button>
